@@ -33,11 +33,7 @@
 <style>
     
     /* MENU */
-    .kontakt {
-        display: grid;
-        justify-content:end;
-        list-style: none;
-        }
+
     
     .logo img {
         width: 10rem;
@@ -47,17 +43,22 @@
         align-items: center;
         background-color: rgba(255, 255, 255, 0.295);
         justify-content: space-between;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
         
     }
     
     #links {
         display: flex;
-        gap: 2rem;
+        gap: 4rem;
         list-style: none;
+        
+    }
+
+    li a {
+        text-decoration: none;
     }
 
 
@@ -65,6 +66,7 @@
     #navigation2 {
         display: flex;
         align-items: center;
+        
     }
 
 </style>
