@@ -5,7 +5,11 @@
 	export let name;
 </script>
 
+<body>
+	
+
 <Header></Header>
+
 
 <main>
 	<h1>Hej Rebecca {name}!</h1>
@@ -13,6 +17,8 @@
 </main>
 
 <Footer></Footer>
+</body>
+
 
 <style>
 	main {
@@ -29,6 +35,14 @@
 		font-weight: 100;
 	}
 
+     body {
+		 background-image: url("../img/baggrund.jpg");
+		 width: 100vw;
+		 min-height: 100vh;
+		 background-size: cover;
+		 margin: 0rem;
+
+	 }
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
