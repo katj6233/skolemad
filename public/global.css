@@ -1,6 +1,9 @@
 :root {
+  /* FONTE */
   --links: "Manrope", sans-serif;
   --paragraph: "Manrope", sans-serif;
+
+  /* COLOR  */
 }
 
 * {
@@ -27,6 +30,13 @@ p {
 
 a {
   font-family: var(--links);
+  color: black;
+  list-style: none;
+}
+
+li a {
+  font-size: large;
+  list-style-type: none;
 }
 
 /* html, body {
