@@ -1,11 +1,18 @@
 <script>
+	import Footer from "./Footer.svelte"
+	import Header from "./Header.svelte"
+
 	export let name;
 </script>
+
+<Header></Header>
 
 <main>
 	<h1>Hej Rebecca {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
+
+<Footer></Footer>
 
 <style>
 	main {
