@@ -4,6 +4,12 @@
   --paragraph: "Manrope", sans-serif;
 
   /* COLOR  */
+  --primary-font-color: black;
+  --default-button-color: #EFEFEF;
+  --primary-button-color: #FFF0BB;
+  --secondary-button-color: #FFFAE2;
+  --background-login-color: white;
+  --default-input-color:#EFEFEF;
 }
 
 

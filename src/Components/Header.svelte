@@ -14,7 +14,7 @@
     <nav>
         <ul id="links">
             <!-- <li><a href="/"></a></li> -->
-            <li><a href="/#/login">Om os</a></li>
+            <li><a href="/#/">Om os</a></li>
             <li><a href="/#/">Kontakt</a></li>
         </ul>
     </nav>
@@ -34,9 +34,7 @@ routes={{
     /* MENU */
 
     
-    .logo img {
-        width: 10rem;
-    }    
+      
     #navigation {
         display: flex;
         align-items: center;
