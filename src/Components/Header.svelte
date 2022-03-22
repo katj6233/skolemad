@@ -1,4 +1,10 @@
+<script>	
+    import Router, { location, link } from "svelte-spa-router";
+	import Home from "../Pages/Home.svelte";
+	import Login from "./Login.svelte";
+    import Stefan from "../Stefan.svelte";
 
+</script>
 <section id="navigation">
 
     <div class="logo">
@@ -6,29 +12,21 @@
     </div>  
     <nav>
         <ul id="links">
+            <li><a href="/">Home</a></li>
             <li><a href="/#/">Om os</a></li>
             <li><a href="/#/">Kontakt</a></li>
         </ul>
     </nav>
 
 </section>
+<Router
+routes={{
+	'/#/': Home,
+	'/login': Login,
+    '/Stefan': Stefan,
+}}
+/>
 
-<!-- <section id="navigation2">
-    <div>
-        <h1>logo</h1>
-    </div>
-
-    <nav>
-        <ul id="links">
-            <li><a href="">Om os</a></li>
-            <li><a href="">Tilføj barn</a></li>
-            <li><a href="">Ret profil</a></li>
-            <li><a href="">Kontakt</a></li>
-        </ul>
-    </nav>
-
-
-</section> -->
 
 <style>
     
