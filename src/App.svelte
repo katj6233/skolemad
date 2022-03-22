@@ -1,22 +1,31 @@
 <script>
-	import Router,{ location,link} from "svelte-spa-router"
-	import Footer from "./Footer.svelte"
-	import Header from "./Header.svelte"
-	import Login from "./Login.svelte"
+	import Router, { location, link } from "svelte-spa-router";
+	import Home from "./Home.svelte";
+	import Footer from "./Footer.svelte";
+	import Header from "./Header.svelte";
+	import Login from "./Login.svelte";
+
 
 	
 </script>
 
+
+<h1>Hej</h1>
 <nav>
+	<a href="/">Home</a>
 	<a href="/#/login">Log in</a>
 </nav>
 
 <Router
 routes={{
-	'/login': Login
+	'/#/': Home,
+	'/login': Login,
 }}
-></Router>
-	
+/>
+
+<hr>{$location}
+
+
 
 <Header></Header>
 
