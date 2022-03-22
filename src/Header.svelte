@@ -6,8 +6,8 @@
     </div>  
     <nav>
         <ul id="links">
-            <li><a href="">Om os</a></li>
-            <li><a href="">Kontakt</a></li>
+            <li><a href="/#/">Om os</a></li>
+            <li><a href="/#/">Kontakt</a></li>
         </ul>
     </nav>
 
@@ -63,10 +63,10 @@
 
 
 
-    #navigation2 {
+    /* #navigation2 {
         display: flex;
         align-items: center;
         
-    }
+    } */
 
 </style>

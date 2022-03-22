@@ -3,10 +3,10 @@
         <ul class="footer_ul">
             <!-- kontakt og cv footer -->
             <li>
-              <a href="">Vilkår</a>
+              <a href="/#/">Vilkår</a>
             </li>
             <li>
-              <a href="">Privatlivspolitik</a>
+              <a href="/#/">Privatlivspolitik</a>
             </li>
           </ul>
 

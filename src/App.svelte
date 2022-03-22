@@ -1,11 +1,21 @@
 <script>
+	import Router,{ location,link} from "svelte-spa-router"
 	import Footer from "./Footer.svelte"
 	import Header from "./Header.svelte"
+	import Login from "./Login.svelte"
 
-	export let name;
+	
 </script>
 
-<body>
+<nav>
+	<a href="/#/login">Log in</a>
+</nav>
+
+<Router
+routes={{
+	'/login': Login
+}}
+></Router>
 	
 
 <Header></Header>
@@ -16,7 +26,7 @@
 </main>
 
 <Footer></Footer>
-</body>
+
 
 
 <style>
@@ -27,21 +37,14 @@
 		margin: 0 auto;
 	}
 
-	h1 {
+	/* h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
-	}
+	} */
 
-     body {
-		 background-image: url("../img/baggrund.jpg");
-		 width: 100vw;
-		 min-height: 100vh;
-		 background-size: cover;
-		 margin: 0rem;
-
-	 }
+     
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
