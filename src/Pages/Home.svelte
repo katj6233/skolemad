@@ -4,13 +4,25 @@
 
 </script>
 
-<h1>Home</h1>
+<body>
+	
 
-
-<section>
+<section class="center">
 <Login></Login>
 </section>
+</body>
 
+<style>
+
+body {
+	background-image: url("../img/baggrund.jpg");
+	width: 100vw;
+	min-height: 100vh;
+	background-size: cover;
+	margin: 0rem;
+
+}
+</style>
 
 
 
