@@ -1,14 +1,8 @@
 <script>
     import Router, { location, link } from "svelte-spa-router";
-    import Stefan from "../Stefan.svelte"
+    import Stefan from "../Pages/Stefan.svelte"
 </script>
 
-<Router
-routes={{
-	
-	'/Stefan': Stefan,
-}}
-/>
 
 
 <section>
@@ -26,3 +20,10 @@ routes={{
         Opret Konto
     </div>
 </section>
+
+<Router
+routes={{
+	
+	'/Stefan': Stefan,
+}}
+/>

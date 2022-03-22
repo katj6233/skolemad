@@ -1,19 +1,20 @@
 <script>	
     import Router, { location, link } from "svelte-spa-router";
 	import Home from "../Pages/Home.svelte";
-	import Login from "./Login.svelte";
-    import Stefan from "../Stefan.svelte";
+	import Login from "../Components/Login.svelte";
+    import Stefan from "../Pages/Stefan.svelte";
 
 </script>
 <section id="navigation">
 
     <div class="logo">
-        <img  src="./img/logo.png" alt="">
+        
+        <a href="/"><p>skolemad</p></a>
     </div>  
     <nav>
         <ul id="links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/#/">Om os</a></li>
+            <!-- <li><a href="/"></a></li> -->
+            <li><a href="/#/login">Om os</a></li>
             <li><a href="/#/">Kontakt</a></li>
         </ul>
     </nav>
@@ -21,7 +22,7 @@
 </section>
 <Router
 routes={{
-	'/#/': Home,
+	'/': Home,
 	'/login': Login,
     '/Stefan': Stefan,
 }}
