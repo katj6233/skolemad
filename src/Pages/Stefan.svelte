@@ -54,5 +54,23 @@
         height: 10rem;
     }
 
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1280px) {
+    
+}
+
+@media (min-width: 1536px) {
+    
 }
 </style>
