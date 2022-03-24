@@ -20,6 +20,7 @@
 
     button:hover {
         background-color: var(--secondary-button-color);
+        text-decoration: underline;
     }
 
     .primary {

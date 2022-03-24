@@ -116,6 +116,7 @@ hr {
 
 .btn1:hover {
     background-color: var(--primary-button-color);
+    text-decoration: underline;
 }
 
 .btn2 {
@@ -124,6 +125,7 @@ hr {
 
 .btn2:hover{
     background-color: var(--secondary-button-color);
+    text-decoration: underline;
 }
 
 .font {
@@ -133,6 +135,10 @@ hr {
 
 button {
     cursor: pointer;
+}
+
+.glemt a:hover {
+color: blue;
 }
 
 

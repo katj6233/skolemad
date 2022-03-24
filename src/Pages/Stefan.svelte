@@ -162,7 +162,7 @@
     }
 
     h3 {
-        margin-right: 12rem;
+        margin-right: 10rem;
     }
 
     
@@ -187,7 +187,7 @@
 
     
     h3 {
-        margin-right: 25rem;
+        margin-right: 13rem;
     }
 }
 
@@ -209,7 +209,7 @@
     }
 
     h3 {
-        margin-right: 30rem;
+        margin-right: 20rem;
     }
     
 }
