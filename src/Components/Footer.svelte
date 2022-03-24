@@ -1,27 +1,73 @@
 <footer>  
     <section class="footer_section">
         <ul class="footer_ul">
+
+
+          <div class="info_div">
+            <p>SkoleMad ApS · Klaringen 15, 4147 Jystrup</p>
+            <p>+45 70 22 29 10 · <a href="mailto:post@skolemad.dk">post@skolemad.dk</a></p>
+          </div>
+
             <!-- kontakt og cv footer -->
+            
+        <div class="vilkar"> 
             <li>
               <a href="/#/">Vilkår</a>
             </li>
             <li>
               <a href="/#/">Privatlivspolitik</a>
             </li>
-          </ul>
+          
+        </div>
+      </ul>
 
-          <div class="info_div">
-            <p>SkoleMad ApS</p>
-            <p>Klaringen 15, 4147 Jystrup</p>
-            <p>+45 70 22 29 10</p>
-            <p class="mail">post@skolemad.dk</p>
-          </div>
+          
 
     </section>
 </footer>
 
 <style>
-.footer_section,
+
+footer {
+  background-color: white;
+ 
+  padding: 2rem;
+}
+
+
+.footer_ul {
+  /* display: flex;
+  justify-content: space-between;
+} */
+}
+
+.info_div p {
+  font-family: var(--heading);
+}
+
+.info_div p a {
+  font-family: var(--heading);
+}
+
+.info_div {
+  padding-bottom: 2rem;
+}
+ul li a{
+  font-family: var(--heading);
+  text-decoration: none;
+  font-size: 1rem;
+}
+ul li {
+  list-style-type: none;
+  
+}
+
+
+
+
+
+
+/* .footer_section,
 .footer_ul {
   display: flex;
 }
@@ -50,6 +96,6 @@
 .info_div {
     padding-right: 40px;
     line-height: 0.5rem;
-}
+} */
 
 </style>

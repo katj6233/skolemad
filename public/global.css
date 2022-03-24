@@ -3,7 +3,8 @@
   --links: "Lora", sans-serif;
   --paragraph: "Lora", sans-serif;
   --heading: "Raleway", sans-serif;
-  --logo: "Myria", sans-serif;
+  --logo: "Hind", sans-serif;
+  --logoo: "Myriadas", sans-serif;
 
   /* COLOR  */
   --primary-font-color: black;
@@ -33,13 +34,18 @@
 }
 
 @font-face {
+  font-family: "Myriadas";
+  src: url(font/MYRIADAS.woff2);
+}
+
+@font-face {
   font-family: "Lora";
   src: url(font/Lora-VariableFont_wght.woff2);
 }
 
 @font-face {
-  font-family: "Myria";
-  src: url(font/MYRIADAS.woff2);
+  font-family: "Hind";
+  src: url(font/Hind-medium.woff2);
 }
 
 p,
