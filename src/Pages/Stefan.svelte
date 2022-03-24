@@ -3,7 +3,11 @@
 </script>
 
 <section>
-    <div>
+    <div class="img_stefan">
+        <img src="../img/groen.png" alt="Billede af noget grønt">
+    </div>
+    <div class="boks_wrapper">
+        <div class="boks"></div>
         <h1>Velkommen Stefan!</h1>
         <p>Her kan du bestille skolemad til dine børn og sikre dem en hverdag med god kost og masser energi!</p>
     </div>
@@ -21,3 +25,34 @@
     </div>
     <a href="/#/">For at afbestille klik her</a>
 </section>
+
+
+<style>
+
+    .img_stefan {
+        width: auto;
+        height: auto;
+    }
+    
+    @media (min-width: 640px) {
+
+    section {
+        display: grid;
+    }
+
+    .img_stefan {
+        grid-area: 1/1;
+    }
+
+    .boks_wrapper {
+        grid-area: 1/1;
+    }
+
+    .boks {
+        background-color: red;
+        width: 20rem;
+        height: 10rem;
+    }
+
+}
+</style>
