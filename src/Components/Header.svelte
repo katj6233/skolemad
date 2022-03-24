@@ -7,13 +7,14 @@
 </script>
 <section id="navigation">
 
+
     <div class="logo">
-        
-        <a href="/"><p>skolemad</p></a>
+
+             <a href="/"><p>SkoleMad</p></a>
+
     </div>  
     <nav>
         <ul id="links">
-            <!-- <li><a href="/"></a></li> -->
             <li><a href="/#/">Om os</a></li>
             <li><a href="/#/">Kontakt</a></li>
         </ul>
@@ -33,9 +34,43 @@ routes={{
     
     /* MENU */
 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'Myria';
+    
+}
+
+
+
+@font-face {
+  font-family: "Myria";
+  src: url(font/MYRIADAS.woff2) format("woff2");
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#navigation {
+    padding: 1rem;
+}
+
+
+    @media screen and (min-width: 640px) {
+        
+    }
     
       
-    #navigation {
+    /* #navigation {
         display: flex;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.295);
@@ -45,7 +80,7 @@ routes={{
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
         
-    }
+    } */
     
     #links {
         display: flex;

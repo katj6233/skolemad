@@ -3,16 +3,16 @@
   --links: "Lora", sans-serif;
   --paragraph: "Lora", sans-serif;
   --heading: "Raleway", sans-serif;
+  --logo: "Myria", sans-serif;
 
   /* COLOR  */
   --primary-font-color: black;
-  --default-button-color: #EFEFEF;
-  --primary-button-color: #FFF0BB;
-  --secondary-button-color: #FFFAE2;
+  --default-button-color: #efefef;
+  --primary-button-color: #fff0bb;
+  --secondary-button-color: #fffae2;
   --background-login-color: white;
-  --default-input-color:#EFEFEF;
+  --default-input-color: #efefef;
 }
-
 
 * {
   margin: 0;
@@ -33,16 +33,23 @@ img {
 }
 
 @font-face {
-	font-family: "Lora";
-	src: url(font/Lora-VariableFont_wght.woff2);
-  }
+  font-family: "Lora";
+  src: url(font/Lora-VariableFont_wght.woff2);
+}
 
-p, input {
+@font-face {
+  font-family: "Myria";
+  src: url(font/MYRIADAS.woff2);
+}
+
+p,
+input {
   font-family: var(--paragraph);
 }
 
-h1, h3 {
-	font-family: var(--heading);
+h1,
+h3 {
+  font-family: var(--heading);
 }
 
 a {
