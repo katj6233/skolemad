@@ -52,7 +52,9 @@ routes={{
     font-family: var(--heading)
 }
 
-
+#links li a:hover { 
+  text-decoration: underline;
+}
 
 
 
@@ -93,11 +95,14 @@ ul li a {
 
     /* MEDIAQUERY 640 px */
     @media screen and (min-width: 640px) {
-        ul {
-    
-    padding-top: 2rem;
-   
-    }   
+       
+    #navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }  
     }
 
 

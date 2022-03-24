@@ -4,8 +4,8 @@
 
 
           <div class="info_div">
-            <p>SkoleMad ApS · Klaringen 15, 4147 Jystrup</p>
-            <p>+45 70 22 29 10 · <a href="mailto:post@skolemad.dk">post@skolemad.dk</a></p>
+            <p>SkoleMad ApS <strong>•</strong> Klaringen 15, 4147 Jystrup</p>
+            <p>+45 70 22 29 10 <strong>•</strong>  <a href="mailto:post@skolemad.dk">post@skolemad.dk</a></p>
           </div>
 
             <!-- kontakt og cv footer -->
@@ -30,16 +30,26 @@
 
 footer {
   background-color: white;
- 
   padding: 2rem;
 }
 
-
-
-
 .info_div p {
   font-family: var(--heading);
+  line-height: 1.7rem;
 }
+
+<<<<<<< HEAD
+
+=======
+.vilkar li {
+  line-height: 1.5rem;
+}
+>>>>>>> 0eb7f8e65f1b428fbf6f8f5ea0649002656f82bb
+
+.vilkar li a:hover { 
+  text-decoration: underline;
+}
+
 
 .info_div p a {
   font-family: var(--heading);
@@ -59,7 +69,73 @@ ul li {
 }
 
 
+@media screen and (min-width: 640px) {
 
+.vilkar {
+  padding-top: 1rem;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+
+.footer_ul  {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.vilkar {
+  padding-top: 0;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+
+footer {
+  padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+}
+
+.vilkar {
+  padding-top: 0;
+}
+
+.info_div {
+  padding-bottom: 0;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  footer {
+    padding-left: 4rem;
+        padding-right: 4rem;
+    
+}
+
+.info_div p {
+  
+  line-height: 2rem;
+}
+}
+
+
+@media screen and (min-width: 1280px) {
+  footer {
+    padding-left: 4rem;
+        padding-right: 4rem;
+  }
+
+  .info_div p {
+  
+  line-height: 2.2rem;
+}
+
+}
 
 
 
