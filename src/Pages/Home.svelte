@@ -19,7 +19,7 @@
 <style>
 
 body {
-	background-image: url("../img/baggrund.jpg");
+	background-image: linear-gradient(hsl(0 0% 100% / 20%) 0 0), url("../img/baggrund.jpg");
 	width: 100vw;
 	min-height: 100vh;
 	background-size: cover;
