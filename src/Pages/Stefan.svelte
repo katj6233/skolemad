@@ -29,6 +29,7 @@
     
     <div class="place_b">
         <Button type="primary">Bestil mad</Button>
+        <img class="basket" src="../img/basket.png" alt="indkøbskurv">
     </div>
         </div>
 
@@ -49,6 +50,10 @@
 
 
 
+.basket {
+    width: 3rem;
+    height: 3rem;
+}
 
     img {
         height: 300px;
@@ -103,6 +108,11 @@
     }
 
     .flex {
+        justify-content: space-between;
+    }
+
+    .place_b {
+        display: flex;
         justify-content: space-between;
     }
 
