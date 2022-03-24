@@ -44,6 +44,7 @@ routes={{
 .logo a {
     text-decoration: none;
     font-family: 'Myria';
+    font-size: 2rem;
     
 }
 
@@ -53,6 +54,10 @@ routes={{
   font-family: "Myria";
   src: url(font/MYRIADAS.woff2) format("woff2");
 }
+
+:root {
+--logo: "Myria", sans-serif;
+}
 ul {
     display: flex;
     justify-content: center;
@@ -60,28 +65,19 @@ ul {
     padding-bottom: 1rem;
 }
 
+ul li a {
+    font-size: 1.2rem;
+}
 #navigation {
     padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.295);
 }
 
 
-    @media screen and (min-width: 640px) {
-        
-    }
+    
     
       
-    /* #navigation {
-        display: flex;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.295);
-        justify-content: space-between;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        
-    } */
-    
+   
     #links {
         display: flex;
         gap: 4rem;
@@ -94,11 +90,68 @@ ul {
     }
 
 
+    /* MEDIAQUERY 640 PX */
+    @media screen and (min-width: 640px) {
+        ul {
+    
+    padding-top: 2rem;
+   
+    }   
+    }
 
-    /* #navigation2 {
+
+    /* MEDIAQUERY 768 PX */
+
+    @media screen and (min-width: 768px) {
+
+        #navigation {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
         
-    } */
+    }
+
+    ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    } 
+
+    .logo {
+        padding-top: 0;
+    }
+
+
+    /* MEDIAQUERY 1024 PX */
+    @media screen and (min-width: 1024px) {
+
+        .logo a {
+    font-size: 2.6rem;
+    
+    }
+
+    ul li a {
+    font-size: 1.3rem;
+    }
+
+    }
+
+
+    /* MEDIAQUERY 1280 PX */
+    @media screen and (min-width: 1280px) {
+
+
+        #navigation {
+       
+        padding-left: 4rem;
+        padding-right: 4rem;
+    
+
+    }
+
+
 
 </style>
