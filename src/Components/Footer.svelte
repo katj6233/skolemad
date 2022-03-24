@@ -35,11 +35,7 @@ footer {
 }
 
 
-.footer_ul {
-  /* display: flex;
-  justify-content: space-between;
-} */
-}
+
 
 .info_div p {
   font-family: var(--heading);

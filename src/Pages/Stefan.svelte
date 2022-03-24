@@ -36,11 +36,19 @@
         <h3 class="underline">Mad bestilt til xx</h3>
         <Tabel></Tabel>
     </div>
-    <a class="link" href="/#/">Klik her for at afbestille</a>
+    
 </section>
 
 
+
+
 <style>
+
+
+
+
+
+
 
     img {
         height: 300px;
@@ -52,6 +60,7 @@
 
     section {
         display: grid;
+        
     }
 
     h1 {
@@ -103,9 +112,7 @@
         text-decoration: underline;
     }
 
-    .link {
-        font-size: x-small;
-    }
+   
 
    
     
@@ -128,6 +135,10 @@
     }
     h3 {
         margin-right: 10rem;
+    }
+
+    .section_2 {
+        margin-inline: 4rem;
     }
 
 
