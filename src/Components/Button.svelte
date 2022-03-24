@@ -8,19 +8,12 @@
 
     button {
         border-radius: 6px;
-        
-        
         padding-block: clamp(0.7rem, 0.6399999999999999rem + 0.30000000000000004vw, 1rem);
-
-        
         padding-inline: clamp(1rem, 0.92rem + 0.3999999999999999vw, 1.4rem);
-
         width: fit-content;
         border: none;
-        box-shadow: 2px 4px var(--default-button-color);
-        
-        
-font-size: clamp(0.7rem, 0.6599999999999999rem + 0.2000000000000001vw, 0.9rem);
+        box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        font-size: clamp(0.7rem, 0.6599999999999999rem + 0.2000000000000001vw, 0.9rem);
     }
 
     button:hover {

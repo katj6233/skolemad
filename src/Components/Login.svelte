@@ -70,6 +70,7 @@ hr {
         padding: 3.5rem;
         border-radius: 1rem;
         margin-top: 3rem;
+        box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     }
 
      h1, .glemt, h2 {
@@ -93,6 +94,7 @@ hr {
         margin-bottom: 16px; 
         resize: vertical;
         background-color: var(--default-input-color); 
+        box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 
 }
 
@@ -105,6 +107,7 @@ hr {
         margin-top: 6px; 
         margin-bottom: 16px; 
         resize: vertical; 
+        box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .btn1 {
