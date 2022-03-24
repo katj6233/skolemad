@@ -38,13 +38,9 @@ footer {
   line-height: 1.7rem;
 }
 
-<<<<<<< HEAD
-
-=======
 .vilkar li {
   line-height: 1.5rem;
 }
->>>>>>> 0eb7f8e65f1b428fbf6f8f5ea0649002656f82bb
 
 .vilkar li a:hover { 
   text-decoration: underline;

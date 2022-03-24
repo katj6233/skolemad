@@ -14,6 +14,8 @@
         border: none;
         box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
         font-size: clamp(0.7rem, 0.6599999999999999rem + 0.2000000000000001vw, 0.9rem);
+        font-family: var(--heading);
+        cursor: pointer;
     }
 
     button:hover {

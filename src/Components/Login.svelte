@@ -17,7 +17,7 @@
     <input type="text" name="brugernavn" placeholder="Brugernavn" required>
     <input type="text" name="kodeord" placeholder="Kodeord" required>
     <div>
-        <button class="btn1" type="secondary"><a href="/#/Stefan">Log in</a></button>
+        <button class="btn1" type="secondary"><a class="font" href="/#/Stefan">Log in</a></button>
     </div>
     <div class="glemt">
         <a href="/#/">Glemt adgangskode?</a>
@@ -124,6 +124,15 @@ hr {
 
 .btn2:hover{
     background-color: var(--secondary-button-color);
+}
+
+.font {
+    font-family: var(--heading);
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 
