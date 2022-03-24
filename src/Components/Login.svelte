@@ -5,9 +5,12 @@
     
 </script>
 
-<h1>Velkommen!</h1>
 
 <section>
+
+    <div class="forside_flex">
+
+    <h1>Velkommen!</h1>
 
     <div class="formular">
     <h3>FORÆLDRE</h3>
@@ -16,20 +19,25 @@
     <div>
         <button class="btn1" type="secondary"><a href="/#/Stefan">Log in</a></button>
     </div>
+    <div class="glemt">
+        <a href="/#/">Glemt adgangskode?</a>
+    </div>
     <hr>
     <div>
         <button class="btn2">Opret konto</button>
     </div>
-    <div class="glemt">
-        <a href="/#/">Glemt adgangskode?</a>
-    </div>
+   
 </div>
 
 
-
+<div class="center">
 <Button type="primary">Skal du <strong>modtage</strong> mad?</Button>
 
 <Button type="primary">Skal du <strong>levere</strong> mad?</Button> 
+
+</div>
+
+</div>
 
 </section>
 
@@ -45,15 +53,26 @@ routes={{
 
 <style>
 
+hr {
+    border: 0.1px grey solid;
+    margin-block: 0.5rem;
+}
+.center {
+	display: flex;
+	justify-content: center;
+    gap: 2rem;
+    margin-top: 1.3rem;
+    
+}
     .formular {
         background-color: var(--background-login-color);
         width: 25rem;
-        padding: 2rem;
+        padding: 3.5rem;
         border-radius: 1rem;
-        
+        margin-top: 3rem;
     }
 
-    h1, .glemt, h3 {
+     h1, .glemt, h3 {
         text-align: center;
     }
 
@@ -74,6 +93,7 @@ routes={{
         margin-bottom: 16px; 
         resize: vertical;
         background-color: var(--default-input-color); 
+
 }
 
  .btn2, .btn1 {

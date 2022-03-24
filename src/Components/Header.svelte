@@ -9,7 +9,7 @@
 
     <div class="logo">
         
-        <a href="/"><p>skolemadd</p></a>
+        <a href="/"><p>skolemad</p></a>
     </div>  
     <nav>
         <ul id="links">

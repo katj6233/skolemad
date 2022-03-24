@@ -8,7 +8,9 @@
 	
 
 <section class="center">
+	<div class="place">
 <Login></Login>
+</div>
 </section>
 
 
@@ -24,6 +26,16 @@ body {
 	margin: 0rem;
 
 }
+
+.center {
+	display: flex;
+	justify-content: center;
+	padding-top: 8rem;
+}
+
+
+
+
 
 
 
