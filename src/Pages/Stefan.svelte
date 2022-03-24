@@ -170,7 +170,7 @@
 
 @media (min-width: 1024px) {
     img {
-        width: 1024px;
+        width: 100%;
     }
 
     .under_o1 {
