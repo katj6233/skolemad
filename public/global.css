@@ -3,16 +3,16 @@
   --links: "Lora", sans-serif;
   --paragraph: "Lora", sans-serif;
   --heading: "Raleway", sans-serif;
+  --logo: "Myria", sans-serif;
 
   /* COLOR  */
   --primary-font-color: black;
-  --default-button-color: #EFEFEF;
-  --primary-button-color: #FFF0BB;
-  --secondary-button-color: #FFFAE2;
+  --default-button-color: #efefef;
+  --primary-button-color: #fff0bb;
+  --secondary-button-color: #fffae2;
   --background-login-color: white;
-  --default-input-color:#EFEFEF;
+  --default-input-color: #efefef;
 }
-
 
 * {
   margin: 0;
@@ -33,40 +33,34 @@ img {
 }
 
 @font-face {
-	font-family: "Lora";
-	src: url(font/Lora-VariableFont_wght.woff2);
-  }
-
-h1 {
-	font-family: var(--heading);
-	font-size: clamp(1.7rem, 1.44rem + 1.3vw, 3rem);
+  font-family: "Lora";
+  src: url(font/Lora-VariableFont_wght.woff2);
 }
 
-h2 {
-	font-family: var(--heading);
-	font-size: clamp(1.2rem, 1.0999999999999999rem + 0.5vw, 1.7rem);
+@font-face {
+  font-family: "Myria";
+  src: url(font/MYRIADAS.woff2);
 }
 
-p, input {
-	font-family: var(--paragraph);
-  font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
-  }
-  
+p,
+input {
+  font-family: var(--paragraph);
+}
+
+h1,
+h3 {
+  font-family: var(--heading);
+}
 
 a {
   font-family: var(--links);
   color: black;
   list-style: none;
-  font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
 }
 
 li a {
   font-size: 1.5rem;
   list-style-type: none;
-}
-
-button {
-	font-family: var(--links);
 }
 
 /* html, body {
