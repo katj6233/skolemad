@@ -10,7 +10,7 @@
 
     <div class="logo">
 
-             <a href="/"><p>SkoleMad</p></a>
+             <a href="/">SkoleMad</a>
 
     </div>  
     <nav>
@@ -43,21 +43,21 @@ routes={{
 
 .logo a {
     text-decoration: none;
-    font-family: 'Myria';
+   font-family: var(--logoo);
     font-size: 2rem;
     
 }
 
-
-
-@font-face {
-  font-family: "Myria";
-  src: url(font/MYRIADAS.woff2) format("woff2");
+#links li a {
+    font-family: var(--heading)
 }
 
-:root {
---logo: "Myria", sans-serif;
-}
+
+
+
+
+
+
 ul {
     display: flex;
     justify-content: center;
