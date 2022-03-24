@@ -21,15 +21,22 @@
          </h3>
 
     <div class="flex">
+    
+        <div class="place_a">
     <Button type="primary">Mikka</Button>
     <Button type="primary">Felix</Button>
+</div>
+    
+    <div class="place_b">
+        <Button type="primary">Bestil mad</Button>
     </div>
+        </div>
 
     <div>
         <h3 class="underline">Mad bestilt til xx</h3>
         <Tabel></Tabel>
     </div>
-    <a class="link" href="/#/">For at afbestille klik her</a>
+    <a class="link" href="/#/">Klik her for at afbestille</a>
 </section>
 
 
@@ -86,6 +93,10 @@
         margin-bottom: 2rem;
     }
 
+    .flex {
+        justify-content: space-between;
+    }
+
     
 
     .underline {
@@ -112,29 +123,104 @@
         grid-area: 1/1;
     }
 
-    .boks {
-        background-color: red;
-        width: 20rem;
-        height: 10rem;
+    img {
+        width: 640px;
     }
-
+    h3 {
+        margin-right: 10rem;
+    }
 
 
 }
 
 @media (min-width: 768px) {
+    img {
+        width: 768px;
+    }
 
-}
+    .under_o1 {
+        margin-bottom: 3rem;
+    }
+    .boks_wrapper {
+        margin-left: 6rem;
+        margin-right: 14rem;
+    }
 
-@media (min-width: 1024px) {
+    .section_2 {
+        margin-inline: 6rem;
+    }
+
+    h3 {
+        margin-right: 12rem;
+    }
+
     
 }
 
+@media (min-width: 1024px) {
+    img {
+        width: 1024px;
+    }
+
+    .under_o1 {
+        margin-bottom: 3rem;
+    }
+    .boks_wrapper {
+        margin-left: 8rem;
+        margin-right: 25rem;
+    }
+
+    .section_2 {
+        margin-inline: 8rem;
+    }
+
+    
+    h3 {
+        margin-right: 25rem;
+    }
+}
+
 @media (min-width: 1280px) {
+    img {
+        width: 1280px;
+    }
+
+    .under_o1 {
+        margin-bottom: 4rem;
+    }
+    .boks_wrapper {
+        margin-left: 10rem;
+        margin-right: 30rem;
+    }
+
+    .section_2 {
+        margin-inline: 10rem;
+    }
+
+    h3 {
+        margin-right: 30rem;
+    }
     
 }
 
 @media (min-width: 1536px) {
+    img {
+        width: 1536px;
+        height: 450px;
+    }
+
+    .boks_wrapper {
+        margin-left: 10rem;
+        margin-right: 50rem;
+    }
+
+    .section_2 {
+        margin-inline: 10rem;
+    }
+
+    h3 {
+        margin-right: 45rem;
+    }
     
 }
 </style>
