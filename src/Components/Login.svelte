@@ -13,7 +13,7 @@
     <h1>Velkommen!</h1>
 
     <div class="formular">
-    <h3>FORÆLDRE</h3>
+    <h2>FORÆLDRE</h2>
     <input type="text" name="brugernavn" placeholder="Brugernavn" required>
     <input type="text" name="kodeord" placeholder="Kodeord" required>
     <div>
@@ -59,8 +59,8 @@ hr {
 }
 .center {
 	display: flex;
-	justify-content: center;
-    gap: 2rem;
+	justify-content: space-evenly;
+    
     margin-top: 1.3rem;
     
 }
@@ -72,11 +72,11 @@ hr {
         margin-top: 3rem;
     }
 
-     h1, .glemt, h3 {
+     h1, .glemt, h2 {
         text-align: center;
     }
 
-    h3 {
+    h2 {
         margin-bottom: 1rem;
     }
 

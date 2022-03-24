@@ -8,16 +8,25 @@
 
     button {
         border-radius: 6px;
-        padding: 0.2rem;
+        
+        
+        padding-block: clamp(0.7rem, 0.6399999999999999rem + 0.30000000000000004vw, 1rem);
+
+        
+        padding-inline: clamp(1rem, 0.92rem + 0.3999999999999999vw, 1.4rem);
+
         width: fit-content;
         border: none;
         box-shadow: 2px 4px var(--default-button-color);
+        
+        
+font-size: clamp(0.7rem, 0.6599999999999999rem + 0.2000000000000001vw, 0.9rem);
     }
 
     button:hover {
         background-color: var(--secondary-button-color);
     }
-    
+
     .primary {
         background-color: var(--primary-button-color);
     }
