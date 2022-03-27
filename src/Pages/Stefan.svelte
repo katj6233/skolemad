@@ -5,7 +5,7 @@
 
 <section>
     <div class="img_stefan">
-        <img src="../img/groen.png" alt="Billede af noget grønt">
+        <img class="baggrund" src="../img/groen.png" alt="Billede af noget grønt">
     </div>
     <div class="boks_wrapper">
         
@@ -14,7 +14,20 @@
     </div>
 </section>
 
+
+<div class="dropdown">
+<span><img class="basket" src="../img/account.png" alt=""></span>
+<div class="dropdown-content">
+    <li><a href="/#/">Tilføj barn</a></li>
+    <li><a href="/#/">Ret oplysninger</a></li>
+    <li><a href="/#/">Kontoudtog</a></li>
+    <li><a href="/#/">Bestillingshistorik</a></li>
+    <li><a href="/#/"><strong>Log ud</strong></a></li>
+  </div>
+</div>
+
 <section class="section_2">
+    
     <h2 class="under_o">Se her et overblik over bestilt skolemad til dit barn.</h2>
     <h3 class="under_o1">For bestilling, tryk på knappen Bestil mad. 
         Når bestillingen er udført, gå til kurv for betaling. 
@@ -29,7 +42,7 @@
     
     <div class="place_b">
         <Button type="primary">Bestil mad</Button>
-        <img class="basket" src="../img/basket.png" alt="indkøbskurv">
+        <img class="basket1" src="../img/basket.png" alt="indkøbskurv">
     </div>
         </div>
 
@@ -41,21 +54,62 @@
 </section>
 
 
+  
+
 
 
 <style>
 
 
-
-
-
-
-.basket {
-    width: 3rem;
-    height: 3rem;
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 2rem;
 }
 
-    img {
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--secondary-button-color);
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    
+    
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.3rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.basket, .basket1 {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.basket1 {
+    margin-left: 1rem;
+}
+
+
+    .baggrund {
         height: 300px;
         width: 390px;
         object-fit: cover;
